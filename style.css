@@ -1,0 +1,38 @@
+body {
+  background: #000;
+}
+
+.header {
+  height: 35px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, black ,#1d1f20);
+  -webkit-app-region: drag;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#header-link {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+#header-link:hover {
+  text-decoration: underline;
+}
+
+webview {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 35px);
+  left: 0;
+  top: 35px;
+}

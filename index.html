@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="overflow:hidden;">
+    <div class="header"><a href="#" id="header-link">CODEPEN</a></div>
+    <webview id="webview" src="http://codepen.io/pen"></webview>
+    <script>
+      var link = document.getElementById('header-link')
+      var webview = document.getElementById('webview')
+      link.onclick = function(e) {
+        e.preventDefault()
+        webview.loadURL('http://codepen.io/pen')
+      }
+    </script>
+  </body>
+</html>
