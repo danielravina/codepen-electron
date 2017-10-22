@@ -22,7 +22,7 @@ electron-packager . \
   --out build/ \
   --overwrite \
   --app-bundle-id="co.codepen-electron.app" \
-  --app-version=0.0.2 \
+  --app-version="$NEW_VERSION" \
   --build-version="1.0.100" \
   --osx-sign
 
