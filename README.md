@@ -3,7 +3,7 @@ Listened to [CodePen Radio episode 140 - Saying No](https://blog.codepen.io/2017
 
 So I built this one for fun! It's really useful when quickly testing a piece of code, browsing pens or working on a full blown pen/post.
 
-[Download macOS client](https://github.com/danielravina/codepen-electron/blob/master/build/codepen-electron-darwin-x64/codepen-electron-0.0.2.dmg?raw=true)
+[Download macOS client](https://github.com/danielravina/codepen-electron/releases/download/v0.0.3/codepen-electron-0.0.3.dmg)
 
 ![screenshot](https://github.com/danielravina/codepen-electron/raw/master/screenshot.jpg)
 _Example pen is [campfire](https://codepen.io/short/pen/gGWbQB)_
